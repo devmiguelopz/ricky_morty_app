@@ -25,3 +25,8 @@ Rutas y alias relativas tsconfig
       "@characters/*": ["src/app/components/pages/characters/*"],
       "@pages/*": ["src/app/components/pages/*"]
     },
+
+
+// ng g m {ROUTE} -m=app --route {NAME_ROUTE} crea componente modulo y  y ruta ademas agrega el modulo en el app
+/ ng g s {ROUTE} crea un servicio
+https://www.youtube.com/watch?v=hGU2ceM8aVY minuto 41.
