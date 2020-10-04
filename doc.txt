@@ -1,0 +1,27 @@
+angular json insertamos estilos y scripts que estan por fuera
+
+            "styles": [
+            ],
+            "scripts
+
+
+ejemplo en agular para boostrap y jquery
+
+            "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+            ],
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/@popperjs/core/dist/umd/popper.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
+
+
+Rutas y alias relativas tsconfig
+    "paths": {
+      "@app/*": ["src/app/*"],
+      "@shared/*": ["src/app/shared/*"],
+      "@environment/*": ["src/environments/*"],
+      "@characters/*": ["src/app/components/pages/characters/*"],
+      "@pages/*": ["src/app/components/pages/*"]
+    },
